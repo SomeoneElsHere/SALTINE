@@ -13,6 +13,10 @@ TRANSCRIBE:
 
 python SALTINE_TRANSCRIBER.py "<ORIG_FILE_GLOBALPATH>" "<MODIFIED_FILE_GLOBALPATH>" "<MOD_NAME>"
 
+Creates a .txt transcribe file with the naming SALTINE_CHANGEDBYTES_<name of project>.txt
+
 APPLY:
 
 SALTINE_APPLIER.exe "<FILE_TOMODIFY>" "<MOD_NAME>"
+
+Applies changes to FILE_TOMODIFY and creates a copy of the original as ORIGINALFOR_<name of project>.dll
