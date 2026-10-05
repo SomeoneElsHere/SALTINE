@@ -24,3 +24,5 @@ Applies changes to FILE_TOMODIFY and creates a copy of the original as ORIGINALF
 --RESCRICTIONS---
 
 I only am okay with you using this for non illegal uses. Anything illegal is bad.
+
+Also since it relies on a certain state of the original dll, if you already dll modded the original dll, adding another modification won't work :C
