@@ -7,3 +7,12 @@ Then, it obfucates the byte changed by making it a refrence to a byte in the ori
 
 Right now it uses RFIND to pick the byte locations (so you can't look in the header to guess,) , but I can obfuscate it more if needed :D
 
+--USAGE (command line only)--
+
+TRANSCRIBE:
+
+python SALTINE_TRANSCRIBER.py "<ORIG_FILE_GLOBALPATH>" "<MODIFIED_FILE_GLOBALPATH>" "<MOD_NAME>"
+
+APPLY:
+
+SALTINE_APPLIER.exe "<FILE_TOMODIFY>" "<MOD_NAME>"
